@@ -24,8 +24,8 @@ Documentation for user to refer to on how to do this step can be found here: htt
 
 4. To run the palindrome function (question 1): open the "palindrome.py" file in the editor. Open the terminal within the editor and navigate to the currect working directory, which should be "Phanalytics," unless you've changed the name of the file you cloned. Once there, type "python3 palindrome.py" to run the program using python 3 version. This last step is essential to make sure the editor knows how to run the python file. Once the editor starts the python file, it will ask you to enter a word that you want to test. After testing it, the program determines if the word is a palindrome or not. Output will look as below: 
 
-![question1](https://github.com/pratishthasingh1/Phanalytics/blob/main/runningquestion1.png?raw=true)
+    ![question1](https://github.com/pratishthasingh1/Phanalytics/blob/main/runningquestion1.png?raw=true)
 
 5. To run the file that tells the user the qualifying offer for the Philadelphia Phillies (question 2): open the "qualifyingoffer.py" file in the editor. Open the terminal within the editor, and once again navigate to the directory "Phanalytics." Then type "python3 qualifyingoffer.py" to run the program using python 3 version. This last step is essential to make sure the editor knows to run the python file. The qualifying offer will be shown in the terminal. Output will look as below: 
 
-![question2](https://github.com/pratishthasingh1/Phanalytics/blob/main/runningquestion2.png?raw=true)
+    ![question2](https://github.com/pratishthasingh1/Phanalytics/blob/main/runningquestion2.png?raw=true)
