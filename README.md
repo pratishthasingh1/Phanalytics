@@ -2,8 +2,8 @@
 
 1. To run my programs, you must install and open an editor of your choice. I used Visual Studio Code. 
 
-2. Open and clone my GitHub repository: https://github.com/pratishthasingh1/Phanalytics.git (title is a pun for Phillies Phanatics + analytics)
-To clone, open your computer's terminal or command and type: git clone https://github.com/pratishthasingh1/Phanalytics.git This should bring a copy of the file onto your computer. 
+2. Open and clone my GitHub repository: https://github.com/pratishthasingh1/Phanalytics.git (title is a pun for Phillies Phanatics + analytics). 
+To clone, open your computer's terminal or command and type: git clone https://github.com/pratishthasingh1/Phanalytics.git. This should bring a copy of the file onto your computer. 
 Documentation for user to refer to on how to do this step can be found here: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 3. Navigate to the directory and open it on the editor. Ensure that there are three files: palindrome.py, qualifyingoffer.py, and this README.md file.
