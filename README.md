@@ -1,4 +1,29 @@
+## Steps to begin:
+
+1. To run my programs, you must install and open an editor of your choice. I used Visual Studio Code. 
+
+2. Open and clone my GitHub repository: https://github.com/pratishthasingh1/Phanalytics.git (title is a pun for Phillies Phanatics + analytics)
+To clone, open your computer's terminal or command and type: git clone https://github.com/pratishthasingh1/Phanalytics.git This should bring a copy of the file onto your computer. 
+Documentation for user to refer to on how to do this step can be found here: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+3. Navigate to the directory and open it on the editor. Ensure that there are three files: palindrome.py, qualifyingoffer.py, and this README.md file.
+
 ## Palindrome: 
+Steps to finding out whether a string is a palindrome or not:
+
+1.  To run the palindrome function (question a): open the "palindrome.py" file in the editor. 
+
+2. Open the terminal within the editor and navigate to the currect working directory, which should be "Phanalytics," unless you've changed the name of the file you cloned. 
+
+3. Once there, type "python3 palindrome.py" to run the program using python 3 version. This last step is essential to make sure the editor knows how to run the python file. 
+
+4. Once the editor starts the python file, it will ask you to enter a word that you want to test. 
+
+5. After testing it, the program determines if the word is a palindrome or not. Output will look as below: 
+
+    ![question1](https://github.com/pratishthasingh1/Phanalytics/blob/main/runningquestion1.png?raw=true)
+
+By using my function compared to the function that was originally given, I am able to find the answer in a more efficient way because: 
 * I can reduce memory storage and improve runtime by not storing the entire reverse string. Instead of comparing original string with a reverse version of itself, I am simply comparing the first element of the string with the last element, and the second with the second-to-last character, and so on. Therefore, we can remove lines 2-4 from the original code.
 
 * I can accurately determine whether or not a string is a palindrome by dividing the test string by 2 (len(s)//2). 
@@ -11,21 +36,21 @@ consuming and less efficient than my code.
 
 * Minor spelling mistake fixed: function that was originally given spelled the function name as "palindrone," I changed it to say "palindrome"
 
-In summary, my code is less time and memory consuming and more efficient. 
+In summary, my code is less time and memory consuming. 
 
 ## Qualifying Offer: 
-1. To run my program, you must install and open an editor of your choice. I used Visual Studio Code. 
+Steps to finding out the qualifying offer:
+1. To run the file that tells the user the qualifying offer for the Philadelphia Phillies (question b): open the "qualifyingoffer.py" file in the editor. 
 
-2. Open and clone my GitHub repository: https://github.com/pratishthasingh1/Phanalytics.git (title is a pun for Phillies Phanatics + analytics)
-To clone, open your computer's terminal or command and type: git clone https://github.com/pratishthasingh1/Phanalytics.git This should bring a copy of the file onto your computer. 
-Documentation for user to refer to on how to do this step can be found here: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+2. Ensure that BeautifulSoup and Requests packages are installed. Links to installation:
+BeautifulSoup4:
+https://beautiful-soup-4.readthedocs.io/en/latest/
+Requests:
+https://requests.readthedocs.io/en/master/
 
-3. Navigate to the directory and open it on the editor. Ensure that there are three files: palindrome.py, qualifyingoffer.py, and this README.md file.
+2. Open the terminal within the editor, and once again navigate to the directory "Phanalytics." 
 
-4. To run the palindrome function (question a): open the "palindrome.py" file in the editor. Open the terminal within the editor and navigate to the currect working directory, which should be "Phanalytics," unless you've changed the name of the file you cloned. Once there, type "python3 palindrome.py" to run the program using python 3 version. This last step is essential to make sure the editor knows how to run the python file. Once the editor starts the python file, it will ask you to enter a word that you want to test. After testing it, the program determines if the word is a palindrome or not. Output will look as below: 
-
-    ![question1](https://github.com/pratishthasingh1/Phanalytics/blob/main/runningquestion1.png?raw=true)
-
-5. To run the file that tells the user the qualifying offer for the Philadelphia Phillies (question b): open the "qualifyingoffer.py" file in the editor. Open the terminal within the editor, and once again navigate to the directory "Phanalytics." Then type "python3 qualifyingoffer.py" to run the program using python 3 version. This last step is essential to make sure the editor knows to run the python file. The qualifying offer will be shown in the terminal. Output will look as below: 
+3. Type "python3 qualifyingoffer.py" to run the program using python 3 version. This last step is essential to make sure the editor knows to run the python file. The qualifying offer will be shown in the terminal. 
+Output will look as below: 
 
     ![question2](https://github.com/pratishthasingh1/Phanalytics/blob/main/runningquestion2.png?raw=true)

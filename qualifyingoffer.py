@@ -1,7 +1,4 @@
-#install and import BeautifulSoup4:
-## https://beautiful-soup-4.readthedocs.io/en/latest/
-#install and import requests:
-## https://requests.readthedocs.io/en/master/
+#import dependencies
 import bs4, requests
 
 #using requests library, we can get the URL
